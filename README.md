@@ -16,7 +16,8 @@ Week 4
 Sources
 
 Week 5 
-Sources 
+Sources:
+Import daytime: https://www.w3schools.com/python/python_datetime.asp (also reference of all legal format codes %A)
 
 Week 6 
 Sources

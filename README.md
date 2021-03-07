@@ -8,7 +8,7 @@ https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292
 
 07 MAR 21: 
 Week 3
-Sources
+Sources: How to reverse input: https://stackoverflow.com/questions/29092778/how-to-reverse-user-input-in-python
 
 Week 4
 Sources

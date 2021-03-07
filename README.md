@@ -1,7 +1,10 @@
 # pands-problem-sheet
 pands-problem-sheet
 Week 2 
-Sources
+Sources:
+https://www.includehelp.com/python/bmi-body-mass-index-calculator.aspx
+https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292
+
 
 07 MAR 21: 
 Week 3

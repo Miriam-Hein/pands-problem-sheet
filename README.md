@@ -22,7 +22,8 @@ Weekday function (int value): https://pythontic.com/datetime/date/weekday
 Code example: https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
 
 Week 6 
-Sources
+Sources: 
+https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,correct%20square%20root%20of%20N.
 
 Week 7 
 Sources

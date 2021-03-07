@@ -8,7 +8,9 @@ https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292
 
 07 MAR 21: 
 Week 3
-Sources: How to reverse input: https://stackoverflow.com/questions/29092778/how-to-reverse-user-input-in-python
+Sources: 
+How to reverse input: https://stackoverflow.com/questions/29092778/how-to-reverse-user-input-in-python
+How to only output every second letter: https://stackoverflow.com/questions/48873854/python-printing-ever-other-letter-of-a-word
 
 Week 4
 Sources

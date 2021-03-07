@@ -13,7 +13,8 @@ How to reverse input: https://stackoverflow.com/questions/29092778/how-to-revers
 How to only output every second letter: https://stackoverflow.com/questions/48873854/python-printing-ever-other-letter-of-a-word
 
 Week 4
-Sources
+Sources: 
+Even or Odd number: https://www.programiz.com/python-programming/examples/odd-even
 
 Week 5 
 Sources:

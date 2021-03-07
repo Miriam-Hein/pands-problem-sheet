@@ -18,6 +18,8 @@ Sources
 Week 5 
 Sources:
 Import daytime: https://www.w3schools.com/python/python_datetime.asp (also reference of all legal format codes %A)
+Weekday function (int value): https://pythontic.com/datetime/date/weekday
+Code example: https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
 
 Week 6 
 Sources

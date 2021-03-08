@@ -15,6 +15,7 @@ How to only output every second letter: https://stackoverflow.com/questions/4887
 Week 4
 Sources: 
 Even or Odd number: https://www.programiz.com/python-programming/examples/odd-even
+Calculation: https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
 
 Week 5 
 Sources:

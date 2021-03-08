@@ -7,7 +7,7 @@
 #Calculate 
 def collatz(number): #beginning of function
     
-        if (number % 2) == 0: #even number (even numbers are dividable by 2 without any remains, so if remains it moves to else)
+        if (number % 2) == 0: #even number (even numbers are dividable by 2 without any remainder, so if remainder it proceeds to else)
             answer = int(number/2) #calculation after being defined as even number
             print(answer)
             return answer #Statement to return value (answer) back to user

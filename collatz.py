@@ -4,16 +4,21 @@
 #The program ends if the value is one.
 # Author: Miriam Heinlein
 
-#User Input
-positiveNumber = int(input ("Please enter a positive number: "))
-
 #Calculate 
+def collatz(number): #beginning of function
+    
+        if (number % 2) == 0: #even number (even numbers are dividable by 2 without any remains, so if remains it moves to else)
+            answer = int(number/2) #calculation after being defined as even number
+            print(answer)
+            return answer #Statement to return value (answer) back to user
+        else: # odd numbers
+            answer = int((number*3) + 1) #calculation after being defined as odd number
+            print(answer)
+            return answer
 
-while answer > 1:
-if (positiveNumber % 2) == 0: #even number
-    answer = int(positiveNumber)/2
-    print(answer1)
-else: # odd numbers
-    answer = int(positiveNumber)*3
-    print(answer2)
+#User Input
+positiveNumber = int(input ("Please enter a positive number: ")) 
 
+# 
+while positiveNumber != 1:
+        positiveNumber = collatz(int(positiveNumber))

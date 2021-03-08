@@ -16,6 +16,7 @@ Week 4
 Sources: 
 Even or Odd number: https://www.programiz.com/python-programming/examples/odd-even
 Calculation: https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
+Problem solving: why i should have used // instead of / --> https://www.educative.io/edpresso/what-are-division-operators-in-python
 
 Week 5 
 Sources:

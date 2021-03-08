@@ -26,6 +26,8 @@ Code example: https://stackoverflow.com/questions/29384696/how-to-find-current-d
 Week 6 
 Sources: 
 https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,correct%20square%20root%20of%20N.
+Explanation of Newton's method: https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo
+Newton's formular: X_i(iter number ie 1,2,3...):= (x_i + (n/x_i))/2 with n equal the input number
 
 Week 7 
 Sources

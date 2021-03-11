@@ -39,3 +39,4 @@ Python file open: https://www.w3schools.com/python/python_file_handling.asp
 
 Week 8
 Sources: https://matplotlib.org/stable/tutorials/introductory/pyplot.html
+Range: https://matplotlib.org/stable/tutorials/introductory/pyplot.html

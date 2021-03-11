@@ -3,19 +3,21 @@
 # Author: Miriam Heinlein
 
 
-f = open("moby-dick.txt", "r")
-print(f.read(5))
+#f = open("moby-dick.txt", "r")
+#print(f.read(5))
 
-#fname = input("Enter file name: ")
-#l=input("Enter letter to be searched:")
-#k = 0
- 
-#with open(fname, 'r') as f:
-#    for line in f:
-#        words = line.split()
-#        for i in words:
-#            for letter in i:
-#                if(letter==l):
-#                    k=k+1
-#print("Occurrences of the letter:")
-#print(k)
+
+# explit function to return the letter count 
+def letterFrequency(fileName, letter): 
+    
+    file = open("moby-dick.txt", 'r') # open file in read mode 
+  
+    
+    text = file.read() # store content of the file in a variable 
+  
+    
+    return text.count(letter) # using count() 
+  
+  
+# call the function and display the letetr count 
+print(letterFrequency('moby-dick.txt', 'e')) 

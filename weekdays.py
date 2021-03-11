@@ -10,7 +10,7 @@ import datetime
 # code for testing: 
 # x = datetime.datetime.now()
 # currentWeekday = x.strftime("%A")
-#print(currentWeekday)
+# print(currentWeekday)
 
 #Output if today is weekday or weekend
 weekNo = datetime.datetime.now().weekday()

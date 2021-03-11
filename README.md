@@ -34,6 +34,7 @@ Week 7
 Sources:
 Text source: https://time.com/4534903/moby-dick-chapter-one/
 Code source: https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
+Python file open: https://www.w3schools.com/python/python_file_handling.asp
 
 
 Week 8

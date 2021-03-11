@@ -3,21 +3,17 @@
 # Author: Miriam Heinlein
 
 
-#f = open("moby-dick.txt", "r")
-#print(f.read(5))
-
-
-# explit function to return the letter count 
+# explicit function to return the letter count 
 def letterFrequency(fileName, letter): 
     
-    file = open("moby-dick.txt", 'r') # open file in read mode 
+    f = open("moby-dick.txt", 'r') #open file in read mode 
   
     
-    text = file.read() # store content of the file in a variable 
+    text = f.read() # store content of the file in a variable 
   
     
     return text.count(letter) # using count() 
   
   
-# call the function and display the letetr count 
+# call the function and display the letter count 
 print(letterFrequency('moby-dick.txt', 'e')) 

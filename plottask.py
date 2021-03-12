@@ -14,6 +14,8 @@ f = x
 g = x**2
 h = x**3
 
+
+
 # setting the axes at the centre
 fig = plt.figure(1)
 ax = fig.add_subplot(1, 1, 1)
@@ -24,7 +26,9 @@ ax.xaxis.set_ticks_position('bottom')
 ax.yaxis.set_ticks_position('left')
 
 # plot the function
-plt.plot(x,g, 'r')
+plt.plot(x,f, 'r') # plotting t, f separately in red
+plt.plot(x,g, 'b') # plotting t, g separately in blue
+plt.plot(x,h, 'g') # plotting t, h separately in green
 
 # show the plot
 plt.show()

@@ -6,29 +6,19 @@
 import matplotlib.pyplot as plt 
 import numpy as np
 
-# 100 linearly spaced numbers
-x = np.arange(0,5,1)
-
 # the function, which is (x)=x, g(x)=x2 and h(x)=x3 here
-f = x
+x = np.array(range(0,5))
 g = x**2
 h = x**3
 
+# plot the functions 
+plt.plot(x, x, linestyle = "solid", color = "red", label="f(x)=x")
+plt.plot(x, g, linestyle = "dashed",color = "purple", label="g(x)=x^2")
+plt.plot(x,h, linestyle = "dotted", color = "green", label="h(x)=x^3")
 
-
-# setting the axes at the centre
-fig = plt.figure(1)
-ax = fig.add_subplot(1, 1, 1)
-ax.spines['bottom'].set_position('zero')
-#ax.spines['right'].set_color('none')
-#ax.spines['top'].set_color('none')
-ax.xaxis.set_ticks_position('bottom')
-ax.yaxis.set_ticks_position('left')
-
-# plot the function
-plt.plot(x,f, 'r') # plotting t, f separately in red
-plt.plot(x,g, 'b') # plotting t, g separately in blue
-plt.plot(x,h, 'g') # plotting t, h separately in green
-
-# show the plot
+# show the plot with title, labels and legend
+plt.title("Functions f(x), g(x) & h(x)")
+plt.xlabel("x-Axis")
+plt.ylabel("y-Axis")
+plt.legend()
 plt.show()

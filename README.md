@@ -46,3 +46,5 @@ Week 8
 plottask.py - this program plots three functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4]
 Sources: https://matplotlib.org/stable/tutorials/introductory/pyplot.html
 Range: https://matplotlib.org/stable/tutorials/introductory/pyplot.html
+Plot multiple graphs: https://stackoverflow.com/questions/22276066/how-to-plot-multiple-functions-on-the-same-figure-in-matplotlib
+

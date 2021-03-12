@@ -47,4 +47,4 @@ plottask.py - this program plots three functions f(x)=x, g(x)=x2 and h(x)=x3 in 
 Sources: https://matplotlib.org/stable/tutorials/introductory/pyplot.html
 Range: https://matplotlib.org/stable/tutorials/introductory/pyplot.html
 Plot multiple graphs: https://stackoverflow.com/questions/22276066/how-to-plot-multiple-functions-on-the-same-figure-in-matplotlib
-
+NumPy arange: https://realpython.com/how-to-use-numpy-arange/

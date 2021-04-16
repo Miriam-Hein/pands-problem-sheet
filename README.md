@@ -5,6 +5,8 @@ bmi.py - This program calculates the Body Mass Index (BMI)
 Sources:
 https://www.includehelp.com/python/bmi-body-mass-index-calculator.aspx
 https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292
+https://dev.to/mindninjax/how-to-build-a-bmi-calculator-in-python-4g2g
+https://www.datacamp.com/community/tutorials/f-string-formatting-in-python?utm_source=adwords_ppc&utm_campaignid=898687156&utm_adgroupid=48947256715&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=&utm_creative=332602034352&utm_targetid=aud-299261629574:dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=1007850&gclid=Cj0KCQjw6-SDBhCMARIsAGbI7UiG42ET-suFypHhRT0YUFpbmL421u-V1bxqDz9oBeZ1rhRQsIaI2rEaAsbAEALw_wcB
 
 Week 3
 secondstring.py - The program returns every second letter in reverse of the user's input. 

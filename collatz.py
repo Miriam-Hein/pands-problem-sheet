@@ -16,7 +16,7 @@ def collatz(positiveNumber): #beginning of function
             #return answer #Statement to return value (answer) back to user
         else: # odd numbers
             positiveNumber = (positiveNumber*3) + 1 #calculation after being defined as odd number
-            print(" ", int(positiveNumber), end=" ")
+            print(" ", int(positiveNumber), end="")
             #return answer
 
 collatz(positiveNumber)

@@ -5,6 +5,7 @@
 #import libraries 
 import matplotlib.pyplot as plt 
 import numpy as np
+import sys 
 
 # the function, which is f(x)=x, g(x)=x^2 and h(x)=x^3 here
 x = np.array(range(0,5,1))
@@ -22,4 +23,7 @@ plt.xlabel("x-Axis")
 plt.ylabel("y-Axis")
 plt.legend(loc = "upper left")
 plt.grid()
-plt.show()
+
+# Save this plot as a file  
+plt.savefig('plottask.png') 
+plt.show ()

@@ -50,3 +50,4 @@ Sources: https://matplotlib.org/stable/tutorials/introductory/pyplot.html
 Range: https://matplotlib.org/stable/tutorials/introductory/pyplot.html
 Plot multiple graphs: https://stackoverflow.com/questions/22276066/how-to-plot-multiple-functions-on-the-same-figure-in-matplotlib
 NumPy arange: https://realpython.com/how-to-use-numpy-arange/
+Save plot as png: https://stackabuse.com/save-plot-as-image-with-matplotlib/

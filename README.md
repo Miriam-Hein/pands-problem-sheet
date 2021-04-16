@@ -1,5 +1,7 @@
 # pands-problem-sheet
 
+This repositiory is used to upload weekly tasks for the Programming and Scripting module (Jan 21 - Apr 21).
+
 ## Week 2 
 
 **bmi.py** - This program calculates the Body Mass Index (BMI)

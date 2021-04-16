@@ -3,7 +3,6 @@
 # Author: Miriam Heinlein
 
 # import Python's datetime module
-
 import datetime
 
 # Todays date and time

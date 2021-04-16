@@ -4,19 +4,24 @@
 # The program ends if the value is one.
 # Author: Miriam Heinlein
 
-#User Input
+#User Input saved in variable positiveNumber
 positiveNumber = int(input ("Please enter a positive number: ")) 
 
-#Calculate 
-def collatz(positiveNumber): #beginning of function
-    while positiveNumber != 1: #Continue until positiveNumber equals 1
-        if (positiveNumber % 2) == 0: #even number (even numbers are dividable by 2 without any remainder, so if remainder it proceeds to else otherwise it ends the program)
+#Calculate using a while loop and if/else statements
+def collatz(positiveNumber): #Beginning of function
+    
+    while positiveNumber != 1: #Continue function until positiveNumber equals 1
+        if (positiveNumber % 2) == 0: #even number (even numbers are dividable by 2 without any remainder, so if remainders it proceeds to else otherwise it ends the function)
             positiveNumber = positiveNumber//2 #calculation after being defined as even number
+            
+            #Output to user in horizontal line with spaces between the caculated values
             print(" ", int(positiveNumber), end="")
-            #return answer #Statement to return value (answer) back to user
+            
         else: # odd numbers
             positiveNumber = (positiveNumber*3) + 1 #calculation after being defined as odd number
+            
+             #Output to user in horizontal line with spaces between the caculated values
             print(" ", int(positiveNumber), end="")
-            #return answer
 
+# Calling the fuction
 collatz(positiveNumber)

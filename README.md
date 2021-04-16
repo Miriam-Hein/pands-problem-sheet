@@ -34,6 +34,9 @@ This repositiory is used to upload weekly tasks for the Programming and Scriptin
 [Calculation](https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff)\
 [Problem solving: why i should have used // instead of /](https://www.educative.io/edpresso/what-are-division-operators-in-python)
 
+***Sources used after lecturer's feedback:***
+[Code Source](https://m-nayoumi.medium.com/generating-a-collatz-sequence-using-a-python-program-56c8fbc318c9)
+
 ---
 
 ## Week 5 
@@ -57,7 +60,6 @@ This repositiory is used to upload weekly tasks for the Programming and Scriptin
 [Using Newton's method](https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,correct%20square%20root%20of%20N.)\
 [Explanation of Newton's method](https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo)
 
-
 ---
 
 ## Week 7 
@@ -69,6 +71,10 @@ This repositiory is used to upload weekly tasks for the Programming and Scriptin
 [Code source](https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/)\
 [Python file open](https://www.w3schools.com/python/python_file_handling.asp)
 
+***Sources after lecturer's feedback used:***
+[Innput filename from argument](https://askubuntu.com/questions/1059579/input-the-filename-in-the-commandline-as-an-argument-in-python)
+[Library sys](https://docs.python.org/3/library/sys.html)
+
 ---
 
 ## Week 8
@@ -79,4 +85,6 @@ This repositiory is used to upload weekly tasks for the Programming and Scriptin
 [Range](https://matplotlib.org/stable/tutorials/introductory/pyplot.html)\
 [Plot multiple graphs](https://stackoverflow.com/questions/22276066/how-to-plot-multiple-functions-on-the-same-figure-in-matplotlib)\
 [NumPy arange](https://realpython.com/how-to-use-numpy-arange/)\
+
+***Sources used after lecturer's feedback:***
 [Save plot as png](https://stackabuse.com/save-plot-as-image-with-matplotlib/)

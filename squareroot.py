@@ -2,6 +2,9 @@
 # This program takes a positive floating-point number as input and return the approximate square root of a number using Newtons method  
 # Author: Miriam Heinlein
 
+# User Input - positive number with decimal point
+positiveNumber = float(input ("Please enter a positive number: "))
+
 #sqrt function
 def sqrt(n, l) : 
 
@@ -26,10 +29,6 @@ def sqrt(n, l) :
   
     return root
    
-  
-# User Input - positive number
-positiveNumber = float(input ("Please enter a positive number: "))
-
 #defined when to stop approximity of square root, in this case once the value goes below 0.1 return output
 l = 0.10 
 

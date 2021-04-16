@@ -2,37 +2,21 @@
 # This program takes a positive floating-point number as input and return the approximate square root of a number using Newtons method  
 # Author: Miriam Heinlein
 
-# User Input - positive number with decimal point
-positiveNumber = float(input ("Please enter a positive number: "))
+# User Input - positive number with decimal point using the float format
+n = float(input ("Please enter a positive number: "))
 
-#sqrt function
-def sqrt(n, l) : 
+#sqrt function to cacluate the approx. square root of n (user input (positive number))
+def newtonSqrt(n): 
 
-    # Assuming the sqrt of n and x_i 
-    x = positiveNumber  
+    # Setting variables
+    approx = 0.5 * n 
+    root = 0.5 * (approx+(n/approx))
   
-    # To count the number of iterations  
-    count = 0 
-  
-    while (1) :  
-        count += 1 
-  
-        # Calculate more closed x  
-        root = (x + (positiveNumber / x))/2  
-  
-        # Check for closeness  
-        if (abs(root - x) < l) : # if the absolute value(postive) of root minus the user's input is smaller than defined l (0.1) stop the loop and return output otherwise continue
-            break 
-  
-        # Update root  
-        x = root 
-  
-    return root
-   
-#defined when to stop approximity of square root, in this case once the value goes below 0.1 return output
-l = 0.10 
+    while root !=approx: # Executes the while loop until the approximation is equal to the root 
+        
+        approx = root 
+        root =  (approx +(n/approx))/2  # 0.5 * or /2 is the same
+    return approx
 
-#Output 
-print ("The square root of", positiveNumber, "is approx.", sqrt(positiveNumber,l))
-
-#print("The square root of {} is approx. {}.".format(num, round(sqrt(num),1)))
+# Output returning approx. square root with one decimal digit
+print ("The square root of", n, "is approx. {:.1f}".format(float(newtonSqrt(n)))) 

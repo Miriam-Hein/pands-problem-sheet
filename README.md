@@ -61,7 +61,7 @@ This repositiory is used to upload weekly tasks for the Programming and Scriptin
 [Explanation of Newton's method](https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo)
 
 ***Sources used after lecturer's feedback:***\
-[Newton's method source code](https://surajregmi.medium.com/how-to-calculate-the-square-root-of-a-number-newton-raphson-method-f8007714f64)
+[Newton's method source code](https://runestone.academy/runestone/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html)
 
 ---
 
